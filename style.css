@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(images/20231025_102308.jpg);
-    background-size: 100vh;
+    color: white;
+    background: url(images/20231025_102308.jpg) no-repeat center;
+    background-size: cover;
+    /*height: 100%;
+    width: 100%;*/
+    background-attachment: fixed;
 }
-
