@@ -3,5 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     background: url(images/20231025_102308.jpg);
+    background-size: 100vh;
 }
 
