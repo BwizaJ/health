@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: white 
+}
+
+.logo img{
+    height: 7rem;  
+    
+}
+
+.separator{
+    margin-top: 5px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+.navbar {
+   color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-left: 5%;
+   gap: 30px;
+   font-size: 25px;
+   margin-top: 2%;
+}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: -10px;
+}
+.slidetext{
+    background-color: rgb(11, 63, 97);
+    color:#fff;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    margin: 0%;
+}
+
+.btn{
+    background-color: rgb(0, 166, 255);
+    color: #fff;
+    font-weight: 400;
+    padding: 15px ;
+    border-radius: 5px;
+}
+.mycart{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(0, 166, 255) ;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+.our{
+    font-weight: bolder;
+    color: black;
+}
+
+footer{
+    background-color: rgb(58, 95, 117);
+    height: 500px;
+}
+footer p{
+    color: #fff;
+    justify-content: end;
+}
+
+
+
