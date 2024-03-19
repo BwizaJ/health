@@ -7,7 +7,9 @@ body{
 }
 
 .logo img{
-    height: 7rem;  
+    margin-left: 60px;
+    padding-top: 40px;
+    height: 5rem;  
     
 }
 
@@ -32,8 +34,6 @@ body{
     color: #333;
     margin-right: 20px;
 }
-
-
 .top-nav{
     display: flex;
     flex-direction: row;
@@ -63,7 +63,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     color: rgb(0, 166, 255) ;
-    margin-right: 2%;
+    margin-right: 4%;
     margin-top: 5%;
 }
 .our{
@@ -71,6 +71,58 @@ body{
     color: black;
 }
 
+.background-container {
+    position: relative; 
+    width: 100%; 
+}
+
+.background-image{
+    background-image: url('./images/Buy_Cheap_Eyeglasses_in_Africa_with_Lapaire_Glasses.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+   
+}
+.overlay-text{
+    position: absolute;
+    top: 42%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: left;
+    
+}
+
+.overlay-text h2{
+    margin-top: 50px;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.overlay-text h3{
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.overlay-text p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.btn2{
+    background-color: rgb(0, 166, 255);
+    color: #fff;
+    font-size: larger;
+    font-weight: 400;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    margin-top: 60px;
+    display: inline-block;
+}
 footer{
     background-color: rgb(58, 95, 117);
     height: 500px;
@@ -79,6 +131,4 @@ footer p{
     color: #fff;
     justify-content: end;
 }
-
-
 
