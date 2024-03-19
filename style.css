@@ -1,11 +1,271 @@
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    color: white;
-    background: url(images/20231025_102308.jpg) no-repeat center;
-    background-size: cover;
-    /*height: 100%;
-    width: 100%;*/
-    background-attachment: fixed;
+    margin: 0;
 }
+body{
+    background: white 
+}
+
+.logo img{
+    margin-left: 60px;
+    padding-top: 40px;
+    height: 5rem;  
+    
+}
+
+.separator{
+    margin-top: 5px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+.navbar {
+   color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-left: 5%;
+   gap: 30px;
+   font-size: 25px;
+   margin-top: 2%;
+}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: -10px;
+}
+.slidetext{
+    background-color: rgb(11, 63, 97);
+    color:#fff;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    margin: 0%;
+}
+
+.btn{
+    background-color: rgb(0, 166, 255);
+    color: #fff;
+    font-weight: 400;
+    padding: 15px ;
+    border-radius: 5px;
+}
+.mycart{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(0, 166, 255) ;
+    margin-right: 4%;
+    margin-top: 5%;
+}
+.our{
+    font-weight: bolder;
+    color: black;
+}
+
+.background-container {
+    position: relative; 
+    width: 100%; 
+}
+
+.background-image{
+    background-image: url('./images/Buy_Cheap_Eyeglasses_in_Africa_with_Lapaire_Glasses.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+   
+}
+.overlay-text{
+    position: absolute;
+    top: 42%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: left;
+    
+}
+
+.overlay-text h2{
+    margin-top: 50px;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.overlay-text h3{
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.overlay-text p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.btn2{
+    background-color: rgb(0, 166, 255);
+    color: #fff;
+    font-size: larger;
+    font-weight: 400;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 30px 0;
+}
+.image-with-text{
+    flex: 1;
+    position: relative;
+    margin-right: 20px;
+    max-width: calc(100% / 3 - 20px);
+    
+}
+
+.image-with-text :first-child{
+    margin-left: 10px;
+}
+.image-with-text img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.text-overlay{
+    position: absolute;
+    
+    top: 30%;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px;
+    font-size: 2em;
+    width: calc(100% - 20px);
+    text-align: left;
+    border-radius: 10px;
+}
+h4{
+    font-size: 3em;
+    padding: 50px;
+}
+.collage {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 20px 0;
+}
+.big-image {
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+  
+.big-image img {
+   width: 100%;
+   display: block;
+   border-radius: 10px;
+}
+  
+.small-images {
+   display: flex;
+   flex-direction: column;
+   
+}
+  
+.small-image {
+    margin-bottom: 10px;
+}
+  
+.small-image img {
+    max-height: calc(100vh - 0px);
+    width: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+  
+
+
+
+.background-container2 {
+    position: relative; 
+    width: 100%; 
+    z-index: 1;
+}
+
+.background-image2{
+    background-image: url('./images/Why_choose_Lapaire_Glasses_to_buy_cheap_eyeglasses.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+   
+}
+.overlay-text2{
+    position: absolute;
+    top: 30%;
+    bottom: 10px;
+    transform: translate (-50% -50%);
+    color: #fff;
+    text-align: left;
+
+    
+}
+
+.overlay-text2 h5{
+    margin-top: 50px;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.overlay-text2 h6{
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.overlay-text2 p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.btn3{
+    background-color: rgb(0, 166, 255);
+    color: #fff;
+    font-size: larger;
+    font-weight: 400;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+
+
+
+footer{
+    background-color: rgb(58, 95, 117);
+    height: 500px;
+}
+footer p{
+    color: #fff;
+    justify-content: end;
+}
+
