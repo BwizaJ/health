@@ -1,0 +1,219 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.logo img{
+  margin-left: 60px;
+  padding-top: 40px;
+  height: 5rem;  
+  
+}
+
+.separator{
+  margin-top: 5px;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+.navbar {
+ color: black;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+ margin-left: 5%;
+ gap: 30px;
+ font-size: 25px;
+ margin-top: 2%;
+}
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+.nav-items :hover{
+  color: rgb(0, 166, 255);
+  text-decoration: underline;
+}
+.top-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: -10px;
+}
+.slidetext{
+  background-color: rgb(11, 63, 97);
+  color:#fff;
+  width: 100%;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  margin: 0%;
+}
+.mycart{
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(0, 166, 255) ;
+  margin-right: 4%;
+  margin-top: 5%;
+}
+.btn{
+  background-color: rgb(0, 166, 255);
+  color: #fff;
+  font-weight: 400;
+  padding: 15px ;
+  border-radius: 5px;
+}
+
+
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+  
+  
+  
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-description {
+    background-color:azure;
+    padding: 15px;
+    
+}
+.shops{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+.text{
+    font-size: larger;
+}
+.text:hover {
+    color: blue;
+    cursor: pointer;
+}
+  
+button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item img {
+    width: 50px; /* Adjust the width as needed */
+    margin-bottom: 50px;
+    margin-top: 50px; /* Space between icon and text */
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .contact-form {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="tel"],
+  .contact-form input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  .contact-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: darkblue;
+  }
+  
+  .onmap {
+    flex: 2;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+  }
+  
+  .onmap iframe {
+    width: 95%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+
+  
+  
