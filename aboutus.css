@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+}
+
+header{
+  width: 100vw;
+  height: 100vh;
+}
+.background-image {
+  background-image: url('/images/career_lapaire_3e2f8e60-9ea2-4ece-bc72-c5b6ce62f745.webp');
+  background-size: cover;
+  background-position: center;
+  height: 60vmin; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 6vmin;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.mission-content{
+  display: flex;
+  padding: 10px;
+  padding-left: 50px;
+  justify-content: space-between;
+  font-size: 20px;
+
+
+}
+
+.ourm{
+  font-size: 4vmin;
+  justify-content: space-between;
+  padding: 5px 40px;
+  margin-left: 20px;
+  margin-top: 40px;
+  
+}
+
+
+.whenn{
+  font-size: 4vmin;
+  margin-left: 40px;
+  margin-top: 30px;
+
+  
+}
+
+.when-content{
+  display: flex;
+  margin-left: 40px;
+  font-size: 3vmin;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+}
+.hist{
+  font-size: 4vmin;
+  justify-content: center;
+  align-content: center;
+  padding-left: 100px;
+  margin-left: 400px;
+}
+
+.history-content{
+  margin-left: 100px;
+  padding-right: 60px;
+  font-size: 3vmin;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.p2{
+  margin-top: 30px;
+  font-size: 3vmin;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  padding-right: 60px;
+
+}
+
+.p3{
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  padding-right: 60px;
+  font-size: 3vmin;
+  
+}
